@@ -1,0 +1,29 @@
+# secrets — never remove these lines
+id_rsa*
+*.pem
+*.key
+*.p12
+.env
+.env.*
+credentials.json
+
+# macOS / Office cruft
+.DS_Store
+~$*
+._*
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# derived data — rebuilt by `offtarget build`
+data/processed/*
+!data/processed/manifest.json
+!data/processed/.gitkeep
