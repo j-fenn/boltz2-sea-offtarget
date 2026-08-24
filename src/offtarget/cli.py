@@ -34,10 +34,19 @@ def _audit_inputs(a) -> int:
 
 
 def _metrics(a) -> int:
+    """Both pair tables, side by side, so it is obvious which set a number came from."""
     import pandas as pd
     from .metrics import auc_table
-    df = pd.read_parquet(a.pairs)
-    print(auc_table(df[df.label.notna()]).round(3).to_string(index=False))
+    for path, note in [(REPO / "data/processed/pairs_audited.parquet",
+                        "as audited - ADRA2A included; every number quoted in the README"),
+                       (REPO / "data/processed/pairs.parquet",
+                        "analysis set - the 20 ADRA2A rows with the broken input removed")]:
+        df = pd.read_parquet(a.pairs if a.pairs else path) if a.pairs else pd.read_parquet(path)
+        df = df[df.label.notna()]
+        print(f"\n{path.stem}  (n={len(df)}, {note})")
+        print(auc_table(df).round(3).to_string(index=False))
+        if a.pairs:
+            break
     return 0
 
 
@@ -131,7 +140,8 @@ def main(argv=None) -> int:
     ai.set_defaults(fn=_audit_inputs)
 
     mt = sub.add_parser("metrics", help="pooled and within-target AUC for every score")
-    mt.add_argument("--pairs", type=Path, default=REPO / "data/processed/pairs.parquet")
+    mt.add_argument("--pairs", type=Path, default=None,
+                    help="a specific pair table; by default both are shown")
     mt.set_defaults(fn=_metrics)
 
     fg = sub.add_parser("figures", help="regenerate every figure")
