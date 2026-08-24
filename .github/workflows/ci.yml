@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install
+        run: pip install -e ".[dev]"
+
+      # Nothing in this repository should ever ship a private key. The tree
+      # this work came from contained one.
+      - name: No secrets tracked
+        run: |
+          if git ls-files | grep -iE 'id_rsa|\.pem$|\.key$|\.p12$|(^|/)\.env'; then
+            echo "::error::a credential-shaped file is tracked"; exit 1
+          fi
+
+      # AlphaFold 3 was never run. It may appear as a citation and nowhere else.
+      - name: No AlphaFold claims
+        run: |
+          if grep -rniE 'alphafold|\bAF3\b' --include='*.py' --include='*.ipynb' \
+             --include='*.md' --include='*.yaml' . | grep -viE 'citation|never run|not run'; then
+            echo "::error::AlphaFold referenced outside a citation"; exit 1
+          fi
+
+      - name: Rebuild every table from the published supplement
+        run: offtarget build
+
+      - name: Regenerate the model inputs and diff them byte for byte
+        run: python inputs/generate_inputs.py --check inputs/generated
+
+      - name: Audit the inputs
+        run: offtarget audit-inputs
+
+      - name: Tests
+        run: pytest -q
+
+      - name: Figures
+        run: offtarget figures

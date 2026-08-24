@@ -1,0 +1,360 @@
+# Per-target modelling configuration for the Boltz-2 inputs.
+#
+# This file replaces ten near-identical generator scripts, each of which carried one
+# hard-coded sequence and one hard-coded template. Every decision that used to be
+# implicit in *which copy of the script ran* is written down here, including the ones
+# that turned out to be mistakes. `python inputs/generate_inputs.py` reproduces all
+# 158 committed inputs byte for byte from this file plus the drug table.
+#
+# Fields per arm:
+#   pdb_id            RCSB entry the sequence was taken from (null for the UniProt arm)
+#   source            rcsb | hand_trimmed | uniprot_canonical
+#   accession         reviewed UniProt accession the arm is *named* for
+#   oligomeric_state  monomer | homodimer  -- what was actually modelled
+#   chain_ids         protein chain ids, exactly as written in the committed files
+#   strip_tags        false everywhere: this reproduces the inputs as run, tags included
+#   audit             measured against the canonical sequence, not asserted
+#   rationale         why this sequence, and what is wrong with it
+
+schema_version: 1
+
+drug_table:
+  path: data/boltz_outputs/alltargetSHOICHET.xlsx
+  sheet: Sheet1
+  name_column: Drug_Name
+  smiles_column: Drug SMILES
+  target_column: Target
+
+# Filename-safe substitution applied to drug names, preserved from the original
+# generators so that regenerated filenames match the committed ones.
+filename_sanitise_pattern: '[\\/*?:"<>| ()]'
+
+targets:
+  ADRA1A:
+    accession: P35348
+    canonical_length: 466
+    arms:
+      pdb:
+        pdb_id: "8HN1"
+        source: rcsb
+        oligomeric_state: homodimer
+        chain_ids: ['A_8HN1', 'B_8HN1']
+        quote_chain_ids: true
+        header_comment: "# Source PDB: 8HN1"
+        output_dir: 8HN1_ADRA1A_yamls
+        filename_pattern: 'ADRA1A_8HN1_{drug}.yaml'
+        strip_tags: false
+        n_inputs: 13
+        audit:
+          length: 346
+          identity_to_canonical: 0.928
+          substitutions: 8
+          inserted_residues: 13
+          deleted_residues: 127
+          construct_tags: [FLAG, His-tag]
+          verdict: "engineered construct: purification scaffold and point substitutions"
+        rationale: >-
+          PDB 8HN1, a GPCR crystallography construct: N-terminal FLAG (DYKDDDDA), C-terminal
+          His8, three glycosylation sequons mutated (N7Q, N13Q, N22Q), two thermostabilising
+          substitutions in TM3 (S113R, M115W), ICL3 residues 214-258 deleted and a BRIL-fusion
+          remnant (DRNLR) left in its place. It is not the human protein.
+        sequence: "DYKDDDDAMVFLSGQASDSSQCTQPPAPVQISKAILLGVILGGLILFGVLGNILVILSVACHRHLHSVTHYYIVNLAVADLLLTSTVLPFSAIFEVLGYWAFGRVFCNIWAAVDVLCCTARIWGLCIISIDRYIGVSYPLRYPTIVTQRRGLMALLCVWALSLVISIGPLFGWRQPAPEDETICQINEEPGYVLFSALGSFYLPLAIILVMYCRVYVVAKRVRLLSGSREKDRNLRKAAKTLGIVVGCFVLCWLPFFLVMPIGSFFPDFKPSETVFKIVFWLGYLNSCINPIIYPCSSQEFKKAFQNVLRIQCLCRKQSSKHALGYTLHPPSQAVEGQHHHHHHHH"
+      uniprot:
+        pdb_id: null
+        source: hand_trimmed
+        oligomeric_state: homodimer
+        chain_ids: ['A', 'B']
+        quote_chain_ids: false
+        header_comment: null
+        output_dir: yaml_AAandsmileADRA1A
+        filename_pattern: 'ADRA1A_{drug}.yaml'
+        strip_tags: false
+        n_inputs: 13
+        audit:
+          length: 348
+          identity_to_canonical: 0.704
+          substitutions: 14
+          inserted_residues: 42
+          deleted_residues: 190
+          construct_tags: []
+          verdict: "construct with 14 point substitutions vs canonical"
+        rationale: >-
+          Hand-pasted in the generator as '# Clean ADRA1A Sequence (Residues ~20-370)'. Only
+          70.4% of it aligns to the reviewed P35348 record this project's own FASTA supplies; 42
+          residues, including a 19-residue ICL3 block (DGRSGHGLRSASSRLMSSQ), appear nowhere in
+          it. Whatever this sequence is - a paralog, an isoform, a merged paste - it is not the
+          UniProt sequence the arm is named for.
+        sequence: "MVFLSGNASDSSNCTQPPAPVNISKAILLGVILGGLILFGVLGNILVILSVACHRHLHSVTHYYIVNLAVADLLLTSTVLPFSAIFEVLGYWAFGRVFCNIWAAVDVLCCTASIMGLCIISIDRYIGVSYPLRYPTIVTQQRGLMALLCVWALSLVISIGPLFGWRQPAPEDETICQINEEPGYVLFSALGSFYVPLLTIILAVYVIVYSRVFQVAKRQLQKIDKSEGRFHAQNLSQVEQDGRSGHGLRSASSRLMSSQVEKPTLKRLTRAIIALLVVSVFIVDLPFWAFFPLLFGNFFVDGKKNASVVRFAILLFGYFNSAMNPIIYPCSSKEFKRAFVRILGCQCR"
+  AR:
+    accession: P10275
+    canonical_length: 920
+    arms:
+      pdb:
+        pdb_id: "1T5Z"
+        source: rcsb
+        oligomeric_state: homodimer
+        chain_ids: ['A_1T5Z', 'B_1T5Z']
+        quote_chain_ids: true
+        header_comment: "# Source PDB: 1T5Z"
+        output_dir: 1T5Z_AR_yamls
+        filename_pattern: 'AR_1T5Z_{drug}.yaml'
+        strip_tags: false
+        n_inputs: 13
+        audit:
+          length: 251
+          identity_to_canonical: 1.000
+          substitutions: 0
+          inserted_residues: 0
+          deleted_residues: 669
+          construct_tags: []
+          verdict: "clean truncation of the canonical sequence"
+        rationale: >-
+          PDB 1T5Z, androgen receptor ligand-binding domain. A clean 251-residue truncation of
+          P10275 (920 aa): the LBD only, no DBD, no NTD. Modelled as a homodimer, which the AR
+          LBD does not form in the canonical dimerisation mode.
+        sequence: "CQPIFLNVLEAIEPGVVCAGHDNNQPDSFAALLSSLNELGERQLVHVVKWAKALPGFRNLHVDDQMAVIQYSWMGLMVFAMGWRSFTNVNSRMLYFAPDLVFNEYRMHKSRMYSQCVRMRHLSQEFGWLQITPQEFLCMKALLLFSIIPVDGLKNQKFFDELRMNYIKELDRIIACKRKNPTSCSRRFYQLTKLLDSVQPIARELHQFTFDLLIKSHMVSVDFPEMMAEIISVQVPKILSGKVKPIYFHTQ"
+      uniprot:
+        pdb_id: null
+        source: hand_trimmed
+        oligomeric_state: homodimer
+        chain_ids: ['A', 'B']
+        quote_chain_ids: false
+        header_comment: null
+        output_dir: yaml_AAandsmileAR
+        filename_pattern: 'AR_{drug}.yaml'
+        strip_tags: false
+        n_inputs: 13
+        audit:
+          length: 371
+          identity_to_canonical: 1.000
+          substitutions: 0
+          inserted_residues: 0
+          deleted_residues: 549
+          construct_tags: []
+          verdict: "clean truncation of the canonical sequence"
+        rationale: >-
+          A 371-residue hand-trim of P10275, exact but longer than the PDB arm. The two arms
+          therefore differ by 120 residues of the same protein, not by construct identity.
+        sequence: "IDYYFPPQKTCLICGDEASGCHYGALTCGSCKVFFKRAAEGKQKYLCASRNDCTIDKFRRKNCPSCRLRKCYEAGMTLGARKLKKLGNLKLQEEGEASSTTSPTEETTQKLTVSHIEGYECQPIFLNVLEAIEPGVVCAGHDNNQPDSFAALLSSLNELGERQLVHVVKWAKALPGFRNLHVDDQMAVIQYSWMGLMVFAMGWRSFTNVNSRMLYFAPDLVFNEYRMHKSRMYSQCVRMRHLSQEFGWLQITPQEFLCMKALLLFSIIPVDGLKNQKFFDELRMNYIKELDRIIACKRKNPTSCSRRFYQLTKLLDSVQPIARELHQFTFDLLIKSHMVSVDFPEMMAEIISVQVPKILSGKVKPIYFHTQ"
+  MAOA:
+    accession: P21397
+    canonical_length: 527
+    arms:
+      pdb:
+        pdb_id: "2Z5X"
+        source: rcsb
+        oligomeric_state: monomer
+        chain_ids: ['A']
+        quote_chain_ids: true
+        header_comment: null
+        output_dir: 2Z5X_MAOA_yamls
+        filename_pattern: 'MAOA_2Z5X_{drug}.yaml'
+        strip_tags: false
+        n_inputs: 24
+        audit:
+          length: 513
+          identity_to_canonical: 1.000
+          substitutions: 0
+          inserted_residues: 0
+          deleted_residues: 14
+          construct_tags: []
+          verdict: "clean truncation of the canonical sequence"
+        rationale: >-
+          PDB 2Z5X. A clean truncation of P21397 (527 aa) missing the 12 C-terminal residues
+          that anchor MAO-A in the outer mitochondrial membrane. The only target modelled as a
+          monomer in the PDB arm without a matching UniProt arm.
+        sequence: "HMFDVVVIGGGISGLSAAKLLTEYGVSVLVLEARDRVGGRTYTIRNEHVDYVDVGGAYVGPTQNRILRLSKELGIETYKVNVSERLVQYVKGKTYPFRGAFPPVWNPIAYLDYNNLWRTIDNMGKEIPTDAPWEAQHADKWDKMTMKELIDKICWTKTARRFAYLFVNINVTSEPHEVSALWFLWYVKQCGGTTRIFSVTNGGQERKFVGGSGQVSERIMDLLGDQVKLNHPVTHVDQSSDNIIIETLNHEHYECKYVINAIPPTLTAKIHFRPELPAERNQLIQRLPMGAVIKCMMYYKEAFWKKKDYCGCMIIEDEDAPISITLDDTKPDGSLPAIMGFILARKADRLAKLHKEIRKKKICELYAKVLGSQEALHPVHYEEKNWCEEQYSGGCYTAYFPPGIMTQYGRVIRQPVGRIFFAGTETATKWSGYMEGAVEAGERAAREVLNGLGKVTEKDIWVQEPESKDVPAVEITHTFWERNLPSVSGLLKIIGFSTSVTALGFVLYKYKLL"
+  PTGS1:
+    accession: P23219
+    canonical_length: 599
+    arms:
+      pdb:
+        pdb_id: "3KK6"
+        source: rcsb
+        oligomeric_state: homodimer
+        chain_ids: ['A_3KK6', 'B_3KK6']
+        quote_chain_ids: true
+        header_comment: "# Source PDB: 3KK6"
+        output_dir: 3KK6_PTGS1_yamls
+        filename_pattern: 'PTGS1_3KK6_{drug}.yaml'
+        strip_tags: false
+        n_inputs: 10
+        audit:
+          length: 553
+          identity_to_canonical: 0.939
+          substitutions: 33
+          inserted_residues: 0
+          deleted_residues: 46
+          construct_tags: []
+          verdict: "construct with 33 point substitutions vs canonical"
+        rationale: >-
+          PDB 3KK6. 33 substitutions spread evenly across the whole chain (median spacing 10
+          residues), no engineering signature and no tags. That dispersion is an ortholog
+          signature, not a mutated human construct: 3KK6 is the ovine enzyme. The 'human PTGS1'
+          arm is 93.9% identical to human PTGS1 because it is a different species.
+        sequence: "PVNPCCYYPCQHQGICVRFGLDRYQCDCTRTGYSGPNCTIPEIWTWLRTTLRPSPSFIHFLLTHGRWLWDFVNATFIRDTLMRLVLTVRSNLIPSPPTYNIAHDYISWESFSNVSYYTRILPSVPRDCPTPMGTKGKKQLPDAEFLSRRFLLRRKFIPDPQGTNLMFAFFAQHFTHQFFKTSGKMGPGFTKALGHGVDLGHIYGDNLERQYQLRLFKDGKLKYQMLNGEVYPPSVEEAPVLMHYPRGIPPQSQMAVGQEVFGLLPGLMLYATIWLREHNRVCDLLKAEHPTWGDEQLFQTARLILIGETIKIVIEEYVQQLSGYFLQLKFDPELLFGAQFQYRNRIAMEFNQLYHWHPLMPDSFRVGPQDYSYEQFLFNTSMLVDYGVEALVDAFSRQPAGRIGGGRNIDHHILHVAVDVIKESRVLRLQPFNEYRKRFGMKPYTSFQELTGEKEMAAELEELYGDIDALEFYPGLLLEKCHPNSIFGESMIEMGAPFSLKGLLGNPICSPEYWKASTFGGEVGFNLVKTATLKKLVCLNTKTCPYVSFHVPD"
+      uniprot:
+        pdb_id: null
+        source: hand_trimmed
+        oligomeric_state: homodimer
+        chain_ids: ['A', 'B']
+        quote_chain_ids: false
+        header_comment: null
+        output_dir: yaml_AAandsmilePTGS1
+        filename_pattern: 'PTGS1_{drug}.yaml'
+        strip_tags: false
+        n_inputs: 10
+        audit:
+          length: 575
+          identity_to_canonical: 1.000
+          substitutions: 0
+          inserted_residues: 0
+          deleted_residues: 24
+          construct_tags: []
+          verdict: "clean truncation of the canonical sequence"
+        rationale: >-
+          A clean 575-residue truncation of P23219 (599 aa) - the signal peptide removed. This
+          arm is human; the PDB arm is not. The head-to-head comparison of the two is therefore
+          also a cross-species comparison.
+        sequence: "DPGAPTPVNPCCYYPCQHQGICVRFGLDRYQCDCTRTGYSGPNCTIPGLWTWLRNSLRPSPSFTHFLLTHGRWFWEFVNATFIREMLMRLVLTVRSNLIPSPPTYNSAHDYISWESFSNVSYYTRILPSVPKDCPTPMGTKGKKQLPDAQLLARRFLLRRKFIPDPQGTNLMFAFFAQHFTHQFFKTSGKMGPGFTKALGHGVDLGHIYGDNLERQYQLRLFKDGKLKYQVLDGEMYPPSVEEAPVLMHYPRGIPPQSQMAVGQEVFGLLPGLMLYATLWLREHNRVCDLLKAEHPTWGDEQLFQTTRLILIGETIKIVIEEYVQQLSGYFLQLKFDPELLFGVQFQYRNRIAMEFNHLYHWHPLMPDSFKVGSQEYSYEQFLFNTSMLVDYGVEALVDAFSRQIAGRIGGGRNMDHHILHVAVDVIRESREMRLQPFNEYRKRFGMKPYTSFQELVGEKEMAAELEELYGDIDALEFYPGLLLEKCHPNSIFGESMIEIGAPFSLKGLLGNPICSPEYWKPSTFGGEVGFNIVKTATLKKLVCLNTKTCPYVSFRVPDASQDDGPAVERPSTEL"
+  SLC29A1:
+    accession: Q99808
+    canonical_length: 456
+    arms:
+      pdb:
+        pdb_id: "6OB6"
+        source: rcsb
+        oligomeric_state: monomer
+        chain_ids: ['A']
+        quote_chain_ids: true
+        header_comment: null
+        output_dir: SLC29A1_6OB6_yamls
+        filename_pattern: 'SLC29A1_6OB6_{drug}.yaml'
+        strip_tags: false
+        n_inputs: 2
+        audit:
+          length: 442
+          identity_to_canonical: 0.952
+          substitutions: 3
+          inserted_residues: 18
+          deleted_residues: 32
+          construct_tags: []
+          verdict: "construct with 3 point substitutions vs canonical"
+        rationale: >-
+          PDB 6OB6. Carries an HRV-3C protease site and linker (GTELLQVDTNSLEVLFQ) at the
+          C-terminus - scaffold that the six audited tag motifs do not match, found only by the
+          alignment diff. The generator script committed beside these files
+          (generate_SLC29A1_yamls.py) does not produce them: its header, its pdb_sequence and
+          its target_filter all say SLC6A4/9HCO.
+        sequence: "MATTSHQPQDRYKAVWLIFFMLGLGTLLPWNFFMTATQYFTNRLDMSQNVSLVTAELSKDAQASAAPAAPLPERNSLSAIFNNVMTLCAMLPLLLFTYLNSFLHQRIPQSVRILGSLVAILLVFLITAILVKVQLDALPFFVITMIKIVLINSFGAILQGSLFGLAGLFPASYTAAIMSGQGLAGFFASVAMICAIASGSELSESAFGYFITACAVIILTIICYLGLPRLEFYRYYQQLKLEGPTNESHSIKAILKKISVLAFSVCFIFTITIGMFPAVTVEVKSSIAGSSTWERYFIPVSCFLTFNIFDWLGRSLTAVFMWPGKDSRWLPSLVLARLVFVPLLLLCNIKPRRYLTVVFEHDAWFIFFMAAFAFSNGYLASLCMCFGPKKVKPAEAETAGAIMAFFLCLGLALGAVFSFLFRAIVGTELLQVDTNSLEVLFQ"
+  SLC6A2:
+    accession: P23975
+    canonical_length: 617
+    arms:
+      pdb:
+        pdb_id: "8HFE"
+        source: rcsb
+        oligomeric_state: homodimer
+        chain_ids: ['A_8HFE', 'B_8HFE']
+        quote_chain_ids: true
+        header_comment: "# Source PDB: 8HFE"
+        output_dir: 8HFE_SLC6A2_yamls
+        filename_pattern: 'SLC6A2_8HFE_{drug}.yaml'
+        strip_tags: false
+        n_inputs: 15
+        audit:
+          length: 617
+          identity_to_canonical: 1.000
+          substitutions: 0
+          inserted_residues: 0
+          deleted_residues: 0
+          construct_tags: []
+          verdict: "canonical sequence"
+        rationale: >-
+          Labelled PDB 8HFE, but the sequence is P23975 verbatim: 617 residues, 100% identity,
+          zero substitutions, zero insertions. This is the canonical UniProt sequence wearing a
+          PDB label.
+        sequence: "MLLARMNPQVQPENNGADTGPEQPLRARKTAELLVVKERNGVQCLLAPRDGDAQPRETWGKKIDFLLSVVGFAVDLANVWRFPYLCYKNGGGAFLIPYTLFLIIAGMPLFYMELALGQYNREGAATVWKICPFFKGVGYAVILIALYVGFYYNVIIAWSLYYLFSSFTLNLPWTDCGHTWNSPNCTDPKLLNGSVLGNHTKYSKYKFTPAAEFYERGVLHLHESSGIHDIGLPQWQLLLCLMVVVIVLYFSLWKGVKTSGKVVWITATLPYFVLFVLLVHGVTLPGASNGINAYLHIDFYRLKEATVWIDAATQIFFSLGAGFGVLIAFASYNKFDNNCYRDALLTSSINCITSFVSGFAIFSILGYMAHEHKVNIEDVATEGAGLVFILYPEAISTLSGSTFWAVVFFVMLLALGLDSSMGGMEAVITGLADDFQVLKRHRKLFTFGVTFSTFLLALFCITKGGIYVLTLLDTFAAGTSILFAVLMEAIGVSWFYGVDRFSNDIQQMMGFRPGLYWRLCWKFVSPAFLLFVVVVSIINFKPLTYDDYIFPPWANWVGWGIALSSMVLVPIYVIYKFLSTQGSLWERLAYGITPENEHHLVAQRDIRQFQLQHWLAI"
+      uniprot:
+        pdb_id: null
+        source: hand_trimmed
+        oligomeric_state: homodimer
+        chain_ids: ['A', 'B']
+        quote_chain_ids: false
+        header_comment: null
+        output_dir: yaml_AAandsmileSLC6A2
+        filename_pattern: 'SLC6A2_{drug}.yaml'
+        strip_tags: false
+        n_inputs: 15
+        audit:
+          length: 566
+          identity_to_canonical: 1.000
+          substitutions: 0
+          inserted_residues: 0
+          deleted_residues: 51
+          construct_tags: []
+          verdict: "clean truncation of the canonical sequence"
+        rationale: >-
+          A 566-residue trim of P23975 - 48 residues shorter than the 'PDB' arm, which is the
+          full canonical sequence. The two arms are swapped: the PDB arm is canonical and the
+          UniProt arm is the hand-trimmed one.
+        sequence: "GVQCLLAPRDGDAQPRETWGKKIDFLLSVVGFAVDLANVWRFPYLCYKNGGGAFLIPYTLFLIIAGMPLFYMELALGQYNREGAATVWKICPFFKGVGYAVILIALYVGFYYNVIIAWSLYYLFSSFTLNLPWTDCGHTWNSPNCTDPKLLNGSVLGNHTKYSKYKFTPAAEFYERGVLHLHESSGIHDIGLPWQLLLCLMVVVIVLYFSLWKGVKTSGKVVWITATLPYFVLFVLLVHGVTLPGASNGINAYLHIDFYRLKEATVWIDAATQIFFSLGAGFGVLIAFASYNKFDNNCYRDALLTSSINCITSFVSGFAIFSILGYMAHEHKVNIEDVATEGAGLVFILYPEAISTLSGSTFWAVVFFVMLLALGLDSSMGGMEAVITGLADDFQVLKRHRKLFTFGVTFSTFLLALFCITKGGIYVLTLLDTFAAGTSILFAVLMEAIGVSWFYGVDRFSNDIQQMMGFRPGLYWRLCWKFVSPAFLLFVVVVSIINFKPLTYDDYIFPPWANWVGWGIALSSMVLVPIYVIYKFLSTQGSLWERLAYGITPENEHHLVAQRDIR"
+  SLC6A3:
+    accession: Q01959
+    canonical_length: 620
+    arms:
+      pdb:
+        pdb_id: "8Y2G"
+        source: rcsb
+        oligomeric_state: monomer
+        chain_ids: ['A']
+        quote_chain_ids: true
+        header_comment: null
+        output_dir: SLC6A3_8Y2G_yamls
+        filename_pattern: 'SLC6A3_8Y2G_{drug}.yaml'
+        strip_tags: false
+        n_inputs: 14
+        audit:
+          length: 514
+          identity_to_canonical: 0.673
+          substitutions: 22
+          inserted_residues: 91
+          deleted_residues: 236
+          construct_tags: []
+          verdict: "construct with 22 point substitutions vs canonical"
+        rationale: >-
+          PDB 8Y2G. Only 67.3% of the input aligns to Q01959: 22 substitutions, 91 inserted
+          residues in nine blocks, 223 residues deleted. The largest inserted blocks are foreign
+          to the human dopamine transporter entirely. The most heavily engineered input in the
+          set, and the target that fails the interface-quality bar 14 times out of 14 in
+          notebook 07.
+        sequence: "MSKSKCSVGLMSSVVAPAKEPNAVGPKEVELILVKEQNGVQLTSSTLTNPRQSPVEAQDRETWGKKIDFLLSVIGFAVDLANVWRFPYLCYKNGGGAFLVPYLLFMVIAGMPLFYMELALGQFNREGAAGVWKICPILKGVGFTVILISLYVGFFYNVIIAWALHYLFSSFTTELPWIHCNNSWNSPNCSDAHPGDSSGDSSGLNDTFGTTPAAEYFERGVLHLHQSHGIDDLGPPRWQLTACLVLVIVLLYFSLWKGVKTSGKVVWITATLPYFVLFVLLVHGVTLPGASNGINAYLHIFFLRLKAQEPWIDFGALWAAVGTFLGAVAGAVLTGVALGLLKFPWIMVLLGSALFGVLLVFAELVGTLAASDAEALVAVIAALAVFVSLSLVYIGALRFAASGPGRGIIWPAIAAFCLFALGPLMTAVFVSWDRRRWEEVLDWAMAFLGYWVGWAILFALGSVMAALGVGAVVLSTAVGLCGLWCAYLGLVGLLGLLVSSAVSLSLLVALVVRW"
+  SLC6A4:
+    accession: P31645
+    canonical_length: 630
+    arms:
+      pdb:
+        pdb_id: "9HCO"
+        source: rcsb
+        oligomeric_state: monomer
+        chain_ids: ['A']
+        quote_chain_ids: true
+        header_comment: null
+        output_dir: SLC6A4_9HCO_yamls
+        filename_pattern: 'SLC6A4_9HCO_{drug}.yaml'
+        strip_tags: false
+        n_inputs: 16
+        audit:
+          length: 685
+          identity_to_canonical: 0.920
+          substitutions: 0
+          inserted_residues: 55
+          deleted_residues: 0
+          construct_tags: [GS-linker, His-tag, Strep-tag, thrombin]
+          verdict: "canonical sequence carrying 55 residues of purification scaffold"
+        rationale: >-
+          PDB 9HCO. The sequence is P31645 in full - 630 residues, zero substitutions - followed
+          by exactly 55 residues of purification scaffold: thrombin site (LVPRGS), twin Strep-
+          tag II (WSHPQFEK x2), GS linkers and His12. Every SLC6A4 claim in the March 2026 deck
+          was made against this construct.
+        sequence: "METTPLNSQKQLSACEDGEDCQENGVLQKVVPTPGDKVESGQISNGYSAVPSPGAGDDTRHSIPATTTTLVAELHQGERETWGKKVDFLLSVIGYAVDLGNVWRFPYICYQNGGGAFLLPYTIMAIFGGIPLFYMELALGQYHRNGCISIWRKICPIFKGIGYAICIIAFYIASYYNTIMAWALYYLISSFTDQLPWTSCKNSWNTGNCTNYFSEDNITWTLHSTSPAEEFYTRHVLQIHRSKGLQDLGGISWQLALCIMLIFTVIYFSIWKGVKTSGKVVWVTATFPYIILSVLLVRGATLPGAWRGVLFYLKPNWQKLLETGVWIDAAAQIFFSLGPGFGVLLAFASYNKFNNNCYQDALVTSVVNCMTSFVSGFVIFTVLGYMAEMRNEDVSEVAKDAGPSLLFITYAEAIANMPASTFFAIIFFLMLITLGLDSTFAGLEGVITAVLDEFPHVWAKRRERFVLAVVITCFFGSLVTLTFGGAYVVKLLEEYATGPAVLTVALIEAVAVSWFYGITQFCRDVKEMLGFSPGWFWRICWVAISPLFLLFIICSFLMSPPQLRLFQYNYPYWSIILGYCIGTSSFICIPTYIAYRLIITPGTFKERIIKSITPETPTEIPCGDIRLNAVGGSLVPRGSGGSWSHPQFEKGGGSGGGSGGSAWSHPQFEKGGSHHHHHHHHHHHH"

@@ -1,0 +1,5 @@
+score,pooled_auc,within_target_auc,targets_used,ci_low,ci_high,within_target_auc_adra2a_dropped
+Confidence (0.8*pLDDT + 0.2*ipTM),0.5631,0.5273,34,0.4452,0.6135,0.5108
+ipTM (interface only),0.5916,0.4864,34,0.4287,0.5468,0.4707
+Affinity probability,0.7313,0.683,34,0.6103,0.7558,0.6844
+-Affinity score (predicted log affinity),0.7709,0.7097,34,0.6436,0.7703,0.7153

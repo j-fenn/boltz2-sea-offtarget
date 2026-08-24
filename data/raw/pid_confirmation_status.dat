@@ -1,0 +1,2769 @@
+Prediction_Id	status	act_status
+1	known_chembl	
+2	known	
+3	known_chembl	
+4	known	
+5	known_chembl	
+6	known	
+7	inactive	
+8	inactive	
+9	known_chembl	
+10	inactive	
+11	known	
+12	known	
+13	known	
+14	inactive	
+15	known	
+16	known_chembl	
+17	known_chembl	
+18	known_chembl	
+19	known_chembl	
+20	known_chembl	
+21	known_chembl	
+22	inactive	
+23	no data	
+24	known_chembl	
+25	inactive	
+26	known_chembl	
+27	no data	
+28	known_chembl	
+29	inactive	
+30	no data	
+31	known_chembl	
+32	inactive	
+33	known_chembl	
+34	known	
+35	known_chembl	
+36	known_chembl	
+37	inactive	
+38	known	
+39	known_chembl	
+40	known_chembl	
+41	inactive	
+42	inactive	
+43	inactive	
+44	known	
+45	known_chembl	
+46	known_chembl	
+47	inactive	
+48	known_chembl	
+49	no data	
+50	inactive	
+51	inactive	
+52	no data	
+53	inactive	
+54	known_chembl	
+55	inactive	
+56	inactive	
+57	inactive	
+58	inactive	
+59	inactive	
+60	known_chembl	
+61	inactive	
+62	inactive	
+63	known	
+64	known_chembl	
+65	inactive	
+66	inactive	
+67	inactive	
+68	inactive	
+69	known_chembl	
+70	known	
+71	known_chembl	
+72	known	
+73	known_chembl	
+74	known_chembl	
+75	known_chembl	
+76	known_chembl	
+77	known_chembl	
+78	confirmed	10uM
+79	inactive	
+80	inactive	
+81	known_chembl	
+82	no data	
+83	no data	
+84	known	
+85	no data	
+86	known_chembl	
+87	inactive	
+88	no data	
+89	no data	
+90	no data	
+91	inactive	
+92	known_chembl	
+93	known_chembl	
+94	known_chembl	
+95	known_chembl	
+96	known_chembl	
+97	inactive	
+98	known_chembl	
+99	known_chembl	
+100	known_chembl	
+101	known_chembl	
+102	known_chembl	
+103	known_chembl	
+104	known_chembl	
+105	known	
+106	known_chembl	
+107	inactive	
+108	known_chembl	
+109	inactive	
+110	known_chembl	
+111	known_chembl	
+112	known	
+113	confirmed	>10uM
+114	known_chembl	
+115	known_chembl	
+116	known	
+117	confirmed	10uM
+118	inactive	
+119	inactive	
+120	inactive	
+121	inactive	
+122	known_chembl	
+123	inactive	
+124	known_chembl	
+125	known_chembl	
+126	inactive	
+127	known	
+128	known_chembl	
+129	inactive	
+130	known_chembl	
+131	known	
+132	known_chembl	
+133	known_chembl	
+134	known_chembl	
+135	known	
+136	known_chembl	
+137	known	
+138	known_chembl	
+139	known	
+140	known	
+141	known	
+142	known_chembl	
+143	known_chembl	
+144	known	
+145	known_chembl	
+146	known_chembl	
+147	known	
+148	confirmed	1uM
+149	confirmed	10uM
+150	known_chembl	
+151	known	
+152	known	
+153	known_chembl	
+154	known	
+155	known	
+156	known_chembl	
+157	known	
+158	confirmed	>10uM
+159	known	
+160	inactive	
+161	no data	
+162	known_chembl	
+163	inactive	
+164	known_chembl	
+165	known	
+166	known	
+167	known	
+168	known	
+169	known_chembl	
+170	inactive	
+171	known_chembl	
+172	known	
+173	known	
+174	known	
+175	confirmed	10uM
+176	no data	
+177	known_chembl	
+178	known_chembl	
+179	known_chembl	
+180	known_chembl	
+181	known_chembl	
+182	known	
+183	known_chembl	
+184	inactive	
+185	inactive	
+186	known	
+187	known_chembl	
+188	no data	
+189	known	
+190	no data	
+191	known	
+192	no data	
+193	no data	
+194	known_chembl	
+195	known	
+196	inactive	
+197	no data	
+198	inactive	
+199	inactive	
+200	inactive	
+201	confirmed	>10uM
+202	known_chembl	
+203	known_chembl	
+204	known	
+205	known_chembl	
+206	confirmed	10uM
+207	known_chembl	
+208	inactive	
+209	inactive	
+210	inactive	
+211	inactive	
+212	inactive	
+213	inactive	
+214	inactive	
+215	known	
+216	known	
+217	known_chembl	
+218	known_chembl	
+219	known	
+220	known_chembl	
+221	known	
+222	known	
+223	known_chembl	
+224	known_chembl	
+225	known	
+226	known_chembl	
+227	known	
+228	known_chembl	
+229	inactive	
+230	inactive	
+231	no data	
+232	known	
+233	inactive	
+234	known_chembl	
+235	known	
+236	no data	
+237	known_chembl	
+238	known_chembl	
+239	known	
+240	known_chembl	
+241	known_chembl	
+242	known_chembl	
+243	known_chembl	
+244	confirmed	10uM
+245	confirmed	1uM
+246	known_chembl	
+247	inactive	
+248	known_chembl	
+249	confirmed	10uM
+250	known_chembl	
+251	confirmed	>10uM
+252	no data	
+253	known_chembl	
+254	inactive	
+255	known_chembl	
+256	known_chembl	
+257	known	
+258	known_chembl	
+259	known_chembl	
+260	no data	
+261	known	
+262	known_chembl	
+263	known_chembl	
+264	no data	
+265	no data	
+266	known	
+267	known_chembl	
+268	confirmed	10uM
+269	inactive	
+270	inactive	
+271	inactive	
+272	known_chembl	
+273	inactive	
+274	inactive	
+275	inactive	
+276	known_chembl	
+277	inactive	
+278	inactive	
+279	known	
+280	known	
+281	inactive	
+282	known_chembl	
+283	inactive	
+284	no data	
+285	no data	
+286	no data	
+287	confirmed	10uM
+288	no data	
+289	no data	
+290	known_chembl	
+291	no data	
+292	no data	
+293	known_chembl	
+294	known	
+295	inactive	
+296	no data	
+297	known_chembl	
+298	inactive	
+299	known	
+300	known	
+301	known_chembl	
+302	known_chembl	
+303	inactive	
+304	inactive	
+305	known	
+306	known_chembl	
+307	no data	
+308	known_chembl	
+309	no data	
+310	known_chembl	
+311	known	
+312	known_chembl	
+313	inactive	
+314	no data	
+315	no data	
+316	known	
+317	confirmed	10uM
+318	known_chembl	
+319	known	
+320	known_chembl	
+321	inactive	
+322	inactive	
+323	inactive	
+324	inactive	
+325	known_chembl	
+326	no data	
+327	known	
+328	known	
+329	inactive	
+330	inactive	
+331	no data	
+332	known	
+333	known_chembl	
+334	inactive	
+335	known	
+336	known	
+337	known_chembl	
+338	known	
+339	known_chembl	
+340	confirmed	1uM
+341	known_chembl	
+342	inactive	
+343	known_chembl	
+344	inactive	
+345	no data	
+346	inactive	
+347	no data	
+348	known	
+349	known	
+350	known	
+351	no data	
+352	known	
+353	no data	
+354	no data	
+355	known_chembl	
+356	known_chembl	
+357	no data	
+358	inactive	
+359	known_chembl	
+360	inactive	
+361	known	
+362	known	
+363	known	
+364	inactive	
+365	known_chembl	
+366	no data	
+367	no data	
+368	no data	
+369	known_chembl	
+370	known_chembl	
+371	known	
+372	known_chembl	
+373	inactive	
+374	confirmed	10uM
+375	known	
+376	known	
+377	known_chembl	
+378	known	
+379	known_chembl	
+380	known	
+381	no data	
+382	no data	
+383	known	
+384	known	
+385	no data	
+386	no data	
+387	no data	
+388	no data	
+389	no data	
+390	known	
+391	no data	
+392	no data	
+393	known	
+394	known	
+395	known	
+396	inactive	
+397	no data	
+398	known_chembl	
+399	known	
+400	confirmed	1uM
+401	confirmed	1uM
+402	known	
+403	confirmed	1uM
+404	known_chembl	
+405	known	
+406	known	
+407	known	
+408	no data	
+409	no data	
+410	known_chembl	
+411	known_chembl	
+412	inactive	
+413	inactive	
+414	no data	
+415	known_chembl	
+416	known_chembl	
+417	known_chembl	
+418	known	
+419	confirmed	10uM
+420	known	
+421	known	
+422	known	
+423	no data	
+424	known	
+425	known	
+426	known	
+427	no data	
+428	no data	
+429	known	
+430	known	
+431	inactive	
+432	known	
+433	known	
+434	known	
+435	no data	
+436	known	
+437	known_chembl	
+438	no data	
+439	no data	
+440	no data	
+441	known_chembl	
+442	known	
+443	known	
+444	inactive	
+445	no data	
+446	no data	
+447	known	
+448	known	
+449	no data	
+450	known_chembl	
+451	inactive	
+452	no data	
+453	known	
+454	known	
+455	inactive	
+456	known	
+457	known	
+458	known_chembl	
+459	known	
+460	known	
+461	known_chembl	
+462	known	
+463	known	
+464	no data	
+465	known_chembl	
+466	known	
+467	known	
+468	known	
+469	inactive	
+470	known_chembl	
+471	inactive	
+472	known	
+473	known_chembl	
+474	known	
+475	known	
+476	known_chembl	
+477	known	
+478	known	
+479	known	
+480	inactive	
+481	known	
+482	no data	
+483	inactive	
+484	known	
+485	known_chembl	
+486	confirmed	10uM
+487	confirmed	10uM
+488	confirmed	10uM
+489	no data	
+490	known	
+491	known	
+492	known	
+493	inactive	
+494	known	
+495	known	
+496	known_chembl	
+497	no data	
+498	known_chembl	
+499	known	
+500	known	
+501	known	
+502	known	
+503	known	
+504	known_chembl	
+505	known	
+506	known	
+507	known_chembl	
+508	known	
+509	known_chembl	
+510	known	
+511	known	
+512	known_chembl	
+513	known	
+514	known	
+515	known	
+516	no data	
+517	known	
+518	known_chembl	
+519	known_chembl	
+520	known	
+521	known	
+522	known	
+523	no data	
+524	known	
+525	known	
+526	no data	
+527	known_chembl	
+528	known	
+529	inactive	
+530	known	
+531	known	
+532	confirmed	10uM
+533	no data	
+534	known_chembl	
+535	inactive	
+536	known	
+537	known	
+538	known_chembl	
+539	known_chembl	
+540	known	
+541	known	
+542	known_chembl	
+543	known_chembl	
+544	known	
+545	known	
+546	known	
+547	known_chembl	
+548	known	
+549	known_chembl	
+550	known	
+551	known_chembl	
+552	known	
+553	confirmed	10uM
+554	confirmed	1uM
+555	known	
+556	known	
+557	known	
+558	known_chembl	
+559	known	
+560	known	
+561	no data	
+562	known	
+563	known_chembl	
+564	known_chembl	
+565	known	
+566	known	
+567	known	
+568	no data	
+569	inactive	
+570	known	
+571	inactive	
+572	known_chembl	
+573	known	
+574	known	
+575	known_chembl	
+576	known	
+577	no data	
+578	known_chembl	
+579	no data	
+580	known_chembl	
+581	no data	
+582	known	
+583	known	
+584	known	
+585	known	
+586	known	
+587	known_chembl	
+588	known_chembl	
+589	known	
+590	known	
+591	known	
+592	known	
+593	known	
+594	known_chembl	
+595	known_chembl	
+596	known_chembl	
+597	known	
+598	confirmed	1uM
+599	known_chembl	
+600	known	
+601	known_chembl	
+602	known_chembl	
+603	known_chembl	
+604	known	
+605	known_chembl	
+606	known_chembl	
+607	known	
+608	known	
+609	known	
+610	known	
+611	known_chembl	
+612	known	
+613	known	
+614	known	
+615	known	
+616	known	
+617	known	
+618	known_chembl	
+619	inactive	
+620	known	
+621	known	
+622	known	
+623	known	
+624	no data	
+625	known_chembl	
+626	no data	
+627	inactive	
+628	inactive	
+629	known_chembl	
+630	known	
+631	known	
+632	inactive	
+633	no data	
+634	confirmed	>10uM
+635	no data	
+636	known_chembl	
+637	inactive	
+638	known	
+639	inactive	
+640	known	
+641	known	
+642	known_chembl	
+643	inactive	
+644	known	
+645	confirmed	1uM
+646	known	
+647	known	
+648	known	
+649	known_chembl	
+650	known	
+651	known	
+652	known	
+653	known	
+654	known	
+655	known	
+656	no data	
+657	inactive	
+658	known	
+659	known	
+660	known	
+661	known	
+662	known	
+663	inactive	
+664	inactive	
+665	known	
+666	known_chembl	
+667	known	
+668	known_chembl	
+669	inactive	
+670	confirmed	10uM
+671	inactive	
+672	known_chembl	
+673	no data	
+674	no data	
+675	known_chembl	
+676	known_chembl	
+677	no data	
+678	no data	
+679	known_chembl	
+680	known	
+681	inactive	
+682	known	
+683	known	
+684	inactive	
+685	known	
+686	confirmed	10uM
+687	confirmed	10uM
+688	known	
+689	known	
+690	known	
+691	no data	
+692	known	
+693	known	
+694	known	
+695	known_chembl	
+696	known	
+697	known	
+698	known	
+699	no data	
+700	inactive	
+701	inactive	
+702	known_chembl	
+703	known_chembl	
+704	known_chembl	
+705	known_chembl	
+706	known_chembl	
+707	known_chembl	
+708	known	
+709	confirmed	10uM
+710	known	
+711	known_chembl	
+712	known	
+713	known	
+714	no data	
+715	known_chembl	
+716	known	
+717	known_chembl	
+718	no data	
+719	no data	
+720	known	
+721	inactive	
+722	known_chembl	
+723	known	
+724	known_chembl	
+725	known	
+726	known	
+727	known	
+728	known_chembl	
+729	known	
+730	known_chembl	
+731	known_chembl	
+732	known	
+733	known	
+734	known	
+735	inactive	
+736	known_chembl	
+737	inactive	
+738	inactive	
+739	known_chembl	
+740	inactive	
+741	confirmed	1uM
+742	known	
+743	known_chembl	
+744	inactive	
+745	known	
+746	known	
+747	known	
+748	known	
+749	known_chembl	
+750	known_chembl	
+751	known_chembl	
+752	inactive	
+753	no data	
+754	no data	
+755	no data	
+756	known	
+757	known	
+758	inactive	
+759	known	
+760	known_chembl	
+761	inactive	
+762	known_chembl	
+763	known	
+764	known	
+765	inactive	
+766	known_chembl	
+767	inactive	
+768	known_chembl	
+769	known	
+770	known_chembl	
+771	known	
+772	known	
+773	known	
+774	inactive	
+775	inactive	
+776	known	
+777	inactive	
+778	known_chembl	
+779	known	
+780	known_chembl	
+781	known	
+782	known	
+783	known_chembl	
+784	confirmed	>10uM
+785	known	
+786	confirmed	10uM
+787	known	
+788	no data	
+789	known	
+790	known	
+791	confirmed	1uM
+792	known_chembl	
+793	inactive	
+794	no data	
+795	known_chembl	
+796	known_chembl	
+797	no data	
+798	no data	
+799	known_chembl	
+800	inactive	
+801	known	
+802	no data	
+803	no data	
+804	known	
+805	known	
+806	known	
+807	known_chembl	
+808	no data	
+809	inactive	
+810	inactive	
+811	no data	
+812	known	
+813	confirmed	10uM
+814	known_chembl	
+815	known_chembl	
+816	no data	
+817	known	
+818	known	
+819	no data	
+820	known	
+821	inactive	
+822	confirmed	>10uM
+823	no data	
+824	known	
+825	known	
+826	known	
+827	known	
+828	inactive	
+829	known	
+830	confirmed	10uM
+831	known_chembl	
+832	inactive	
+833	inactive	
+834	known_chembl	
+835	no data	
+836	known	
+837	known	
+838	inactive	
+839	known_chembl	
+840	inactive	
+841	known_chembl	
+842	no data	
+843	inactive	
+844	known_chembl	
+845	confirmed	1uM
+846	known_chembl	
+847	known	
+848	known_chembl	
+849	confirmed	10uM
+850	known_chembl	
+851	known	
+852	known	
+853	known_chembl	
+854	known_chembl	
+855	known	
+856	known_chembl	
+857	known	
+858	known	
+859	known	
+860	known_chembl	
+861	known_chembl	
+862	no data	
+863	confirmed	10uM
+864	known_chembl	
+865	known	
+866	no data	
+867	known	
+868	no data	
+869	known_chembl	
+870	known_chembl	
+871	known	
+872	known	
+873	no data	
+874	known	
+875	known	
+876	no data	
+877	known	
+878	inactive	
+879	known	
+880	no data	
+881	inactive	
+882	known_chembl	
+883	confirmed	10uM
+884	known	
+885	known_chembl	
+886	known_chembl	
+887	known	
+888	known_chembl	
+889	known_chembl	
+890	inactive	
+891	known	
+892	inactive	
+893	known	
+894	confirmed	>10uM
+895	known	
+896	known_chembl	
+897	inactive	
+898	no data	
+899	known	
+900	known	
+901	known	
+902	inactive	
+903	inactive	
+904	known_chembl	
+905	known_chembl	
+906	known_chembl	
+907	no data	
+908	inactive	
+909	known	
+910	known	
+911	known_chembl	
+912	known	
+913	known	
+914	no data	
+915	known	
+916	known	
+917	known_chembl	
+918	known	
+919	known	
+920	inactive	
+921	no data	
+922	no data	
+923	no data	
+924	no data	
+925	known	
+926	known_chembl	
+927	known	
+928	known	
+929	inactive	
+930	inactive	
+931	no data	
+932	confirmed	>10uM
+933	inactive	
+934	known_chembl	
+935	confirmed	1uM
+936	no data	
+937	no data	
+938	no data	
+939	confirmed	1uM
+940	known	
+941	known	
+942	known_chembl	
+943	known_chembl	
+944	inactive	
+945	known	
+946	known_chembl	
+947	no data	
+948	inactive	
+949	known	
+950	inactive	
+951	inactive	
+952	inactive	
+953	known_chembl	
+954	known	
+955	known_chembl	
+956	known_chembl	
+957	inactive	
+958	no data	
+959	no data	
+960	no data	
+961	known	
+962	known_chembl	
+963	confirmed	1uM
+964	inactive	
+965	inactive	
+966	known_chembl	
+967	no data	
+968	known	
+969	inactive	
+970	inactive	
+971	known	
+972	confirmed	10uM
+973	known	
+974	known	
+975	known	
+976	inactive	
+977	known	
+978	known_chembl	
+979	known_chembl	
+980	known_chembl	
+981	inactive	
+982	known_chembl	
+983	inactive	
+984	known_chembl	
+985	confirmed	10uM
+986	inactive	
+987	no data	
+988	known_chembl	
+989	no data	
+990	confirmed	1uM
+991	known	
+992	inactive	
+993	inactive	
+994	known	
+995	no data	
+996	inactive	
+997	inactive	
+998	known	
+999	no data	
+1000	inactive	
+1001	no data	
+1002	no data	
+1003	no data	
+1004	no data	
+1005	no data	
+1006	no data	
+1007	confirmed	10uM
+1008	known_chembl	
+1009	known_chembl	
+1010	known	
+1011	inactive	
+1012	inactive	
+1013	inactive	
+1014	inactive	
+1015	known_chembl	
+1016	known	
+1017	known_chembl	
+1018	no data	
+1019	known_chembl	
+1020	inactive	
+1021	confirmed	>10uM
+1022	known	
+1023	inactive	
+1024	inactive	
+1025	inactive	
+1026	confirmed	1uM
+1027	inactive	
+1028	inactive	
+1029	inactive	
+1030	inactive	
+1031	known	
+1032	known_chembl	
+1033	inactive	
+1034	confirmed	>10uM
+1035	no data	
+1036	known_chembl	
+1037	inactive	
+1038	inactive	
+1039	no data	
+1040	no data	
+1041	known	
+1042	inactive	
+1043	known_chembl	
+1044	inactive	
+1045	no data	
+1046	known	
+1047	inactive	
+1048	inactive	
+1049	inactive	
+1050	no data	
+1051	no data	
+1052	inactive	
+1053	inactive	
+1054	known	
+1055	inactive	
+1056	no data	
+1057	known	
+1058	known_chembl	
+1059	known	
+1060	inactive	
+1061	no data	
+1062	no data	
+1063	known	
+1064	no data	
+1065	known	
+1066	inactive	
+1067	known_chembl	
+1068	known_chembl	
+1069	known	
+1070	inactive	
+1071	inactive	
+1072	no data	
+1073	inactive	
+1074	inactive	
+1075	no data	
+1076	no data	
+1077	no data	
+1078	inactive	
+1079	no data	
+1080	inactive	
+1081	inactive	
+1082	inactive	
+1083	no data	
+1084	known	
+1085	inactive	
+1086	known	
+1087	known_chembl	
+1088	known_chembl	
+1089	known	
+1090	inactive	
+1091	no data	
+1092	no data	
+1093	inactive	
+1094	known	
+1095	confirmed	1uM
+1096	confirmed	1uM
+1097	no data	
+1098	known_chembl	
+1099	confirmed	1uM
+1100	no data	
+1101	no data	
+1102	inactive	
+1103	confirmed	10uM
+1104	inactive	
+1105	no data	
+1106	inactive	
+1107	known	
+1108	no data	
+1109	no data	
+1110	no data	
+1111	no data	
+1112	inactive	
+1113	no data	
+1114	known	
+1115	no data	
+1116	known	
+1117	confirmed	1uM
+1118	no data	
+1119	no data	
+1120	confirmed	>10uM
+1121	confirmed	>10uM
+1122	inactive	
+1123	no data	
+1124	confirmed	10uM
+1125	known_chembl	
+1126	no data	
+1127	confirmed	1uM
+1128	no data	
+1129	confirmed	1uM
+1130	known	
+1131	known	
+1132	no data	
+1133	no data	
+1134	no data	
+1135	known	
+1136	known_chembl	
+1137	known_chembl	
+1138	no data	
+1139	known_chembl	
+1140	no data	
+1141	known	
+1142	no data	
+1143	no data	
+1144	known	
+1145	inactive	
+1146	no data	
+1147	known	
+1148	inactive	
+1149	known	
+1150	known	
+1151	confirmed	10uM
+1152	known	
+1153	inactive	
+1154	known_chembl	
+1155	inactive	
+1156	known	
+1157	known	
+1158	no data	
+1159	inactive	
+1160	known	
+1161	known	
+1162	known	
+1163	known	
+1164	known	
+1165	inactive	
+1166	no data	
+1167	known	
+1168	known	
+1169	no data	
+1170	no data	
+1171	no data	
+1172	known	
+1173	confirmed	10uM
+1174	no data	
+1175	inactive	
+1176	no data	
+1177	no data	
+1178	no data	
+1179	no data	
+1180	no data	
+1181	known_chembl	
+1182	no data	
+1183	known	
+1184	confirmed	10uM
+1185	known_chembl	
+1186	inactive	
+1187	known	
+1188	confirmed	10uM
+1189	confirmed	1uM
+1190	no data	
+1191	known	
+1192	no data	
+1193	no data	
+1194	known_chembl	
+1195	no data	
+1196	confirmed	1uM
+1197	inactive	
+1198	known	
+1199	inactive	
+1200	confirmed	10uM
+1201	inactive	
+1202	inactive	
+1203	no data	
+1204	inactive	
+1205	inactive	
+1206	known_chembl	
+1207	no data	
+1208	inactive	
+1209	no data	
+1210	known_chembl	
+1211	known	
+1212	inactive	
+1213	known	
+1214	known	
+1215	inactive	
+1216	confirmed	10uM
+1217	inactive	
+1218	no data	
+1219	known_chembl	
+1220	inactive	
+1221	known_chembl	
+1222	no data	
+1223	known_chembl	
+1224	known	
+1225	known_chembl	
+1226	known_chembl	
+1227	inactive	
+1228	no data	
+1229	inactive	
+1230	inactive	
+1231	inactive	
+1232	known_chembl	
+1233	confirmed	>10uM
+1234	no data	
+1235	inactive	
+1236	inactive	
+1237	confirmed	1uM
+1238	no data	
+1239	known	
+1240	inactive	
+1241	known	
+1242	known_chembl	
+1243	no data	
+1244	no data	
+1245	known_chembl	
+1246	confirmed	10uM
+1247	known	
+1248	known	
+1249	inactive	
+1250	inactive	
+1251	inactive	
+1252	no data	
+1253	known_chembl	
+1254	known_chembl	
+1255	known_chembl	
+1256	confirmed	>10uM
+1257	inactive	
+1258	known	
+1259	inactive	
+1260	known_chembl	
+1261	inactive	
+1262	known_chembl	
+1263	known	
+1264	confirmed	1uM
+1265	no data	
+1266	inactive	
+1267	known	
+1268	inactive	
+1269	known_chembl	
+1270	known_chembl	
+1271	no data	
+1272	known	
+1273	confirmed	>10uM
+1274	inactive	
+1275	no data	
+1276	no data	
+1277	no data	
+1278	no data	
+1279	known	
+1280	no data	
+1281	no data	
+1282	no data	
+1283	known_chembl	
+1284	known_chembl	
+1285	inactive	
+1286	known	
+1287	confirmed	10uM
+1288	inactive	
+1289	inactive	
+1290	no data	
+1291	inactive	
+1292	known_chembl	
+1293	no data	
+1294	known	
+1295	known	
+1296	known_chembl	
+1297	known	
+1298	no data	
+1299	no data	
+1300	inactive	
+1301	inactive	
+1302	no data	
+1303	no data	
+1304	no data	
+1305	inactive	
+1306	no data	
+1307	inactive	
+1308	no data	
+1309	inactive	
+1310	no data	
+1311	inactive	
+1312	inactive	
+1313	known	
+1314	inactive	
+1315	known_chembl	
+1316	inactive	
+1317	no data	
+1318	no data	
+1319	inactive	
+1320	no data	
+1321	known	
+1322	inactive	
+1323	inactive	
+1324	inactive	
+1325	inactive	
+1326	inactive	
+1327	known	
+1328	known	
+1329	known_chembl	
+1330	known_chembl	
+1331	known	
+1332	confirmed	>10uM
+1333	inactive	
+1334	no data	
+1335	no data	
+1336	no data	
+1337	known	
+1338	known	
+1339	confirmed	1uM
+1340	known	
+1341	confirmed	>10uM
+1342	inactive	
+1343	no data	
+1344	confirmed	10uM
+1345	inactive	
+1346	no data	
+1347	no data	
+1348	inactive	
+1349	known	
+1350	known	
+1351	inactive	
+1352	known	
+1353	no data	
+1354	confirmed	10uM
+1355	known	
+1356	inactive	
+1357	known	
+1358	inactive	
+1359	known	
+1360	inactive	
+1361	confirmed	10uM
+1362	no data	
+1363	confirmed	1uM
+1364	known	
+1365	known_chembl	
+1366	no data	
+1367	no data	
+1368	known	
+1369	no data	
+1370	known	
+1371	known_chembl	
+1372	inactive	
+1373	no data	
+1374	known_chembl	
+1375	known	
+1376	known_chembl	
+1377	known_chembl	
+1378	known_chembl	
+1379	known	
+1380	known	
+1381	inactive	
+1382	inactive	
+1383	known_chembl	
+1384	known_chembl	
+1385	known	
+1386	inactive	
+1387	known	
+1388	known_chembl	
+1389	inactive	
+1390	known	
+1391	no data	
+1392	known_chembl	
+1393	no data	
+1394	known	
+1395	known	
+1396	inactive	
+1397	inactive	
+1398	known	
+1399	known	
+1400	known	
+1401	known	
+1402	inactive	
+1403	no data	
+1404	no data	
+1405	known	
+1406	inactive	
+1407	known	
+1408	inactive	
+1409	known	
+1410	no data	
+1411	no data	
+1412	no data	
+1413	inactive	
+1414	known	
+1415	known_chembl	
+1416	no data	
+1417	known_chembl	
+1418	confirmed	10uM
+1419	confirmed	10uM
+1420	known_chembl	
+1421	confirmed	1uM
+1422	known	
+1423	known_chembl	
+1424	no data	
+1425	no data	
+1426	known	
+1427	inactive	
+1428	confirmed	10uM
+1429	known	
+1430	inactive	
+1431	no data	
+1432	no data	
+1433	inactive	
+1434	inactive	
+1435	known	
+1436	known	
+1437	known	
+1438	known	
+1439	known_chembl	
+1440	known_chembl	
+1441	no data	
+1442	inactive	
+1443	known	
+1444	known	
+1445	no data	
+1446	inactive	
+1447	known_chembl	
+1448	no data	
+1449	inactive	
+1450	no data	
+1451	no data	
+1452	inactive	
+1453	no data	
+1454	inactive	
+1455	known_chembl	
+1456	inactive	
+1457	known_chembl	
+1458	known	
+1459	confirmed	1uM
+1460	inactive	
+1461	no data	
+1462	no data	
+1463	inactive	
+1464	inactive	
+1465	no data	
+1466	inactive	
+1467	inactive	
+1468	inactive	
+1469	confirmed	>10uM
+1470	no data	
+1471	known	
+1472	confirmed	10uM
+1473	no data	
+1474	no data	
+1475	known_chembl	
+1476	inactive	
+1477	confirmed	10uM
+1478	no data	
+1479	known	
+1480	inactive	
+1481	no data	
+1482	known_chembl	
+1483	known	
+1484	confirmed	10uM
+1485	no data	
+1486	known	
+1487	no data	
+1488	known_chembl	
+1489	known_chembl	
+1490	no data	
+1491	no data	
+1492	known	
+1493	inactive	
+1494	known_chembl	
+1495	no data	
+1496	inactive	
+1497	inactive	
+1498	known	
+1499	known	
+1500	inactive	
+1501	known	
+1502	known_chembl	
+1503	known	
+1504	confirmed	1uM
+1505	confirmed	1uM
+1506	known_chembl	
+1507	inactive	
+1508	inactive	
+1509	no data	
+1510	known_chembl	
+1511	no data	
+1512	confirmed	1uM
+1513	inactive	
+1514	no data	
+1515	confirmed	>10uM
+1516	inactive	
+1517	known	
+1518	known	
+1519	no data	
+1520	known_chembl	
+1521	no data	
+1522	no data	
+1523	inactive	
+1524	known	
+1525	inactive	
+1526	no data	
+1527	inactive	
+1528	inactive	
+1529	inactive	
+1530	no data	
+1531	inactive	
+1532	inactive	
+1533	known	
+1534	known	
+1535	inactive	
+1536	known	
+1537	no data	
+1538	known	
+1539	no data	
+1540	inactive	
+1541	inactive	
+1542	no data	
+1543	no data	
+1544	inactive	
+1545	no data	
+1546	inactive	
+1547	inactive	
+1548	known_chembl	
+1549	no data	
+1550	known_chembl	
+1551	no data	
+1552	no data	
+1553	known	
+1554	known_chembl	
+1555	known_chembl	
+1556	confirmed	>10uM
+1557	confirmed	>10uM
+1558	no data	
+1559	known	
+1560	known	
+1561	known	
+1562	no data	
+1563	no data	
+1564	no data	
+1565	no data	
+1566	no data	
+1567	inactive	
+1568	inactive	
+1569	known_chembl	
+1570	known	
+1571	inactive	
+1572	known	
+1573	known	
+1574	inactive	
+1575	inactive	
+1576	inactive	
+1577	no data	
+1578	inactive	
+1579	inactive	
+1580	no data	
+1581	known	
+1582	known	
+1583	known	
+1584	confirmed	1uM
+1585	no data	
+1586	no data	
+1587	no data	
+1588	no data	
+1589	no data	
+1590	no data	
+1591	no data	
+1592	known_chembl	
+1593	known	
+1594	inactive	
+1595	confirmed	10uM
+1596	no data	
+1597	no data	
+1598	no data	
+1599	no data	
+1600	known	
+1601	known	
+1602	known	
+1603	inactive	
+1604	inactive	
+1605	known	
+1606	inactive	
+1607	known_chembl	
+1608	inactive	
+1609	inactive	
+1610	no data	
+1611	known	
+1612	known_chembl	
+1613	confirmed	10uM
+1614	known_chembl	
+1615	known_chembl	
+1616	no data	
+1617	no data	
+1618	inactive	
+1619	known	
+1620	inactive	
+1621	no data	
+1622	confirmed	>10uM
+1623	no data	
+1624	known_chembl	
+1625	inactive	
+1626	known	
+1627	known_chembl	
+1628	known	
+1629	known_chembl	
+1630	inactive	
+1631	confirmed	10uM
+1632	inactive	
+1633	no data	
+1634	known	
+1635	inactive	
+1636	inactive	
+1637	known	
+1638	inactive	
+1639	confirmed	10uM
+1640	no data	
+1641	no data	
+1642	known	
+1643	known	
+1644	inactive	
+1645	inactive	
+1646	inactive	
+1647	known_chembl	
+1648	no data	
+1649	known	
+1650	known_chembl	
+1651	inactive	
+1652	known	
+1653	inactive	
+1654	inactive	
+1655	inactive	
+1656	inactive	
+1657	confirmed	>10uM
+1658	inactive	
+1659	inactive	
+1660	inactive	
+1661	inactive	
+1662	inactive	
+1663	known	
+1664	inactive	
+1665	no data	
+1666	no data	
+1667	known	
+1668	known_chembl	
+1669	no data	
+1670	confirmed	10uM
+1671	known	
+1672	known_chembl	
+1673	inactive	
+1674	no data	
+1675	known_chembl	
+1676	known	
+1677	confirmed	1uM
+1678	known_chembl	
+1679	known	
+1680	confirmed	10uM
+1681	no data	
+1682	no data	
+1683	known_chembl	
+1684	known_chembl	
+1685	known_chembl	
+1686	confirmed	1uM
+1687	confirmed	10uM
+1688	known	
+1689	known	
+1690	no data	
+1691	no data	
+1692	no data	
+1693	no data	
+1694	known	
+1695	inactive	
+1696	confirmed	10uM
+1697	no data	
+1698	no data	
+1699	inactive	
+1700	inactive	
+1701	no data	
+1702	known	
+1703	inactive	
+1704	known_chembl	
+1705	inactive	
+1706	no data	
+1707	no data	
+1708	known_chembl	
+1709	confirmed	>10uM
+1710	no data	
+1711	inactive	
+1712	no data	
+1713	known	
+1714	no data	
+1715	inactive	
+1716	known	
+1717	no data	
+1718	no data	
+1719	no data	
+1720	no data	
+1721	no data	
+1722	known	
+1723	no data	
+1724	no data	
+1725	confirmed	10uM
+1726	confirmed	>10uM
+1727	inactive	
+1728	inactive	
+1729	inactive	
+1730	no data	
+1731	no data	
+1732	inactive	
+1733	confirmed	10uM
+1734	inactive	
+1735	no data	
+1736	known	
+1737	known	
+1738	inactive	
+1739	inactive	
+1740	inactive	
+1741	inactive	
+1742	confirmed	>10uM
+1743	inactive	
+1744	known	
+1745	no data	
+1746	no data	
+1747	inactive	
+1748	confirmed	1uM
+1749	inactive	
+1750	known	
+1751	no data	
+1752	no data	
+1753	inactive	
+1754	known	
+1755	confirmed	>10uM
+1756	known	
+1757	no data	
+1758	no data	
+1759	inactive	
+1760	no data	
+1761	no data	
+1762	confirmed	10uM
+1763	known	
+1764	known	
+1765	known	
+1766	known	
+1767	no data	
+1768	no data	
+1769	no data	
+1770	inactive	
+1771	confirmed	10uM
+1772	inactive	
+1773	no data	
+1774	known	
+1775	inactive	
+1776	no data	
+1777	known	
+1778	known_chembl	
+1779	inactive	
+1780	no data	
+1781	no data	
+1782	known	
+1783	confirmed	10uM
+1784	known	
+1785	inactive	
+1786	no data	
+1787	inactive	
+1788	inactive	
+1789	no data	
+1790	inactive	
+1791	inactive	
+1792	no data	
+1793	no data	
+1794	no data	
+1795	known_chembl	
+1796	inactive	
+1797	known	
+1798	confirmed	10uM
+1799	known_chembl	
+1800	inactive	
+1801	inactive	
+1802	no data	
+1803	known	
+1804	inactive	
+1805	inactive	
+1806	no data	
+1807	known	
+1808	known	
+1809	inactive	
+1810	no data	
+1811	known_chembl	
+1812	inactive	
+1813	known_chembl	
+1814	no data	
+1815	no data	
+1816	no data	
+1817	no data	
+1818	known	
+1819	known_chembl	
+1820	confirmed	1uM
+1821	no data	
+1822	known	
+1823	inactive	
+1824	inactive	
+1825	inactive	
+1826	inactive	
+1827	inactive	
+1828	known	
+1829	known	
+1830	no data	
+1831	inactive	
+1832	inactive	
+1833	known_chembl	
+1834	confirmed	10uM
+1835	inactive	
+1836	inactive	
+1837	no data	
+1838	known_chembl	
+1839	no data	
+1840	inactive	
+1841	no data	
+1842	inactive	
+1843	inactive	
+1844	no data	
+1845	inactive	
+1846	inactive	
+1847	known	
+1848	known	
+1849	known	
+1850	inactive	
+1851	no data	
+1852	no data	
+1853	inactive	
+1854	inactive	
+1855	known_chembl	
+1856	inactive	
+1857	no data	
+1858	known	
+1859	inactive	
+1860	inactive	
+1861	inactive	
+1862	confirmed	10uM
+1863	known	
+1864	no data	
+1865	no data	
+1866	known	
+1867	known	
+1868	known	
+1869	inactive	
+1870	inactive	
+1871	no data	
+1872	known	
+1873	known_chembl	
+1874	no data	
+1875	no data	
+1876	no data	
+1877	no data	
+1878	known	
+1879	inactive	
+1880	inactive	
+1881	inactive	
+1882	no data	
+1883	no data	
+1884	known_chembl	
+1885	no data	
+1886	no data	
+1887	known	
+1888	no data	
+1889	no data	
+1890	inactive	
+1891	no data	
+1892	confirmed	10uM
+1893	inactive	
+1894	no data	
+1895	confirmed	1uM
+1896	inactive	
+1897	known	
+1898	inactive	
+1899	no data	
+1900	known_chembl	
+1901	known	
+1902	confirmed	>10uM
+1903	inactive	
+1904	known	
+1905	confirmed	>10uM
+1906	no data	
+1907	no data	
+1908	no data	
+1909	no data	
+1910	confirmed	1uM
+1911	no data	
+1912	no data	
+1913	no data	
+1914	inactive	
+1915	known_chembl	
+1916	known	
+1917	known	
+1918	inactive	
+1919	inactive	
+1920	known	
+1921	known	
+1922	inactive	
+1923	known_chembl	
+1924	inactive	
+1925	known	
+1926	inactive	
+1927	no data	
+1928	no data	
+1929	known_chembl	
+1930	inactive	
+1931	no data	
+1932	inactive	
+1933	inactive	
+1934	confirmed	10uM
+1935	inactive	
+1936	known_chembl	
+1937	inactive	
+1938	no data	
+1939	known	
+1940	no data	
+1941	confirmed	10uM
+1942	confirmed	>10uM
+1943	inactive	
+1944	known	
+1945	inactive	
+1946	inactive	
+1947	known	
+1948	no data	
+1949	inactive	
+1950	inactive	
+1951	confirmed	10uM
+1952	known_chembl	
+1953	inactive	
+1954	known	
+1955	known_chembl	
+1956	inactive	
+1957	no data	
+1958	no data	
+1959	known	
+1960	no data	
+1961	inactive	
+1962	inactive	
+1963	confirmed	10uM
+1964	confirmed	10uM
+1965	known_chembl	
+1966	no data	
+1967	inactive	
+1968	no data	
+1969	inactive	
+1970	inactive	
+1971	inactive	
+1972	inactive	
+1973	known	
+1974	no data	
+1975	inactive	
+1976	known	
+1977	inactive	
+1978	known_chembl	
+1979	inactive	
+1980	inactive	
+1981	confirmed	1uM
+1982	no data	
+1983	inactive	
+1984	no data	
+1985	no data	
+1986	known	
+1987	no data	
+1988	no data	
+1989	no data	
+1990	inactive	
+1991	no data	
+1992	no data	
+1993	known	
+1994	known	
+1995	inactive	
+1996	inactive	
+1997	no data	
+1998	no data	
+1999	confirmed	10uM
+2000	known_chembl	
+2001	no data	
+2002	no data	
+2003	known_chembl	
+2004	inactive	
+2005	no data	
+2006	inactive	
+2007	inactive	
+2008	confirmed	10uM
+2009	inactive	
+2010	no data	
+2011	no data	
+2012	inactive	
+2013	known	
+2014	inactive	
+2015	no data	
+2016	known_chembl	
+2017	no data	
+2018	no data	
+2019	inactive	
+2020	confirmed	10uM
+2021	no data	
+2022	no data	
+2023	no data	
+2024	no data	
+2025	inactive	
+2026	no data	
+2027	no data	
+2028	inactive	
+2029	no data	
+2030	no data	
+2031	known_chembl	
+2032	known	
+2033	confirmed	1uM
+2034	inactive	
+2035	known_chembl	
+2036	known	
+2037	no data	
+2038	no data	
+2039	known	
+2040	inactive	
+2041	inactive	
+2042	inactive	
+2043	confirmed	10uM
+2044	known_chembl	
+2045	no data	
+2046	inactive	
+2047	no data	
+2048	inactive	
+2049	confirmed	1uM
+2050	inactive	
+2051	known	
+2052	known	
+2053	inactive	
+2054	confirmed	10uM
+2055	known	
+2056	known	
+2057	inactive	
+2058	no data	
+2059	confirmed	1uM
+2060	no data	
+2061	known_chembl	
+2062	known	
+2063	no data	
+2064	confirmed	1uM
+2065	known_chembl	
+2066	inactive	
+2067	known	
+2068	inactive	
+2069	known	
+2070	no data	
+2071	inactive	
+2072	inactive	
+2073	inactive	
+2074	inactive	
+2075	no data	
+2076	inactive	
+2077	known	
+2078	known	
+2079	known_chembl	
+2080	inactive	
+2081	known	
+2082	inactive	
+2083	known_chembl	
+2084	no data	
+2085	known_chembl	
+2086	inactive	
+2087	inactive	
+2088	inactive	
+2089	inactive	
+2090	no data	
+2091	inactive	
+2092	inactive	
+2093	no data	
+2094	no data	
+2095	no data	
+2096	inactive	
+2097	no data	
+2098	known_chembl	
+2099	inactive	
+2100	known_chembl	
+2101	inactive	
+2102	known	
+2103	inactive	
+2104	no data	
+2105	no data	
+2106	inactive	
+2107	confirmed	>10uM
+2108	inactive	
+2109	inactive	
+2110	no data	
+2111	no data	
+2112	no data	
+2113	inactive	
+2114	inactive	
+2115	known	
+2116	no data	
+2117	known_chembl	
+2118	inactive	
+2119	inactive	
+2120	known	
+2121	no data	
+2122	known	
+2123	confirmed	>10uM
+2124	no data	
+2125	known	
+2126	known_chembl	
+2127	inactive	
+2128	known	
+2129	confirmed	10uM
+2130	no data	
+2131	inactive	
+2132	known_chembl	
+2133	inactive	
+2134	inactive	
+2135	inactive	
+2136	no data	
+2137	inactive	
+2138	inactive	
+2139	known	
+2140	known	
+2141	known	
+2142	known	
+2143	known	
+2144	known	
+2145	inactive	
+2146	known	
+2147	no data	
+2148	no data	
+2149	inactive	
+2150	no data	
+2151	known	
+2152	inactive	
+2153	no data	
+2154	no data	
+2155	inactive	
+2156	known	
+2157	inactive	
+2158	confirmed	10uM
+2159	inactive	
+2160	inactive	
+2161	confirmed	1uM
+2162	inactive	
+2163	no data	
+2164	inactive	
+2165	known	
+2166	no data	
+2167	no data	
+2168	known	
+2169	inactive	
+2170	no data	
+2171	no data	
+2172	inactive	
+2173	known	
+2174	inactive	
+2175	confirmed	10uM
+2176	known	
+2177	no data	
+2178	known_chembl	
+2179	inactive	
+2180	inactive	
+2181	known	
+2182	known_chembl	
+2183	known	
+2184	inactive	
+2185	no data	
+2186	no data	
+2187	confirmed	1uM
+2188	inactive	
+2189	no data	
+2190	no data	
+2191	no data	
+2192	inactive	
+2193	no data	
+2194	no data	
+2195	inactive	
+2196	inactive	
+2197	inactive	
+2198	known	
+2199	confirmed	10uM
+2200	confirmed	10uM
+2201	inactive	
+2202	known_chembl	
+2203	confirmed	1uM
+2204	inactive	
+2205	no data	
+2206	no data	
+2207	known	
+2208	inactive	
+2209	inactive	
+2210	known	
+2211	inactive	
+2212	inactive	
+2213	no data	
+2214	no data	
+2215	known	
+2216	no data	
+2217	no data	
+2218	known	
+2219	confirmed	>10uM
+2220	inactive	
+2221	no data	
+2222	confirmed	1uM
+2223	inactive	
+2224	inactive	
+2225	no data	
+2226	known	
+2227	inactive	
+2228	inactive	
+2229	no data	
+2230	inactive	
+2231	no data	
+2232	inactive	
+2233	no data	
+2234	known	
+2235	no data	
+2236	inactive	
+2237	confirmed	10uM
+2238	inactive	
+2239	no data	
+2240	confirmed	>10uM
+2241	no data	
+2242	no data	
+2243	no data	
+2244	no data	
+2245	inactive	
+2246	confirmed	1uM
+2247	known	
+2248	no data	
+2249	no data	
+2250	no data	
+2251	known_chembl	
+2252	no data	
+2253	inactive	
+2254	no data	
+2255	no data	
+2256	inactive	
+2257	known	
+2258	inactive	
+2259	inactive	
+2260	inactive	
+2261	no data	
+2262	inactive	
+2263	known	
+2264	inactive	
+2265	known_chembl	
+2266	known	
+2267	inactive	
+2268	known	
+2269	inactive	
+2270	inactive	
+2271	inactive	
+2272	inactive	
+2273	no data	
+2274	no data	
+2275	inactive	
+2276	known	
+2277	inactive	
+2278	known	
+2279	inactive	
+2280	inactive	
+2281	inactive	
+2282	inactive	
+2283	inactive	
+2284	inactive	
+2285	known	
+2286	known	
+2287	no data	
+2288	confirmed	>10uM
+2289	no data	
+2290	known	
+2291	no data	
+2292	known	
+2293	no data	
+2294	known	
+2295	inactive	
+2296	known_chembl	
+2297	confirmed	1uM
+2298	confirmed	10uM
+2299	inactive	
+2300	known	
+2301	known	
+2302	inactive	
+2303	known	
+2304	inactive	
+2305	inactive	
+2306	known	
+2307	inactive	
+2308	no data	
+2309	no data	
+2310	no data	
+2311	inactive	
+2312	known_chembl	
+2313	no data	
+2314	inactive	
+2315	known	
+2316	known	
+2317	known	
+2318	known	
+2319	confirmed	10uM
+2320	known	
+2321	inactive	
+2322	inactive	
+2323	inactive	
+2324	inactive	
+2325	inactive	
+2326	inactive	
+2327	inactive	
+2328	inactive	
+2329	inactive	
+2330	inactive	
+2331	inactive	
+2332	inactive	
+2333	known	
+2334	inactive	
+2335	known	
+2336	inactive	
+2337	inactive	
+2338	inactive	
+2339	inactive	
+2340	inactive	
+2341	inactive	
+2342	inactive	
+2343	inactive	
+2344	inactive	
+2345	inactive	
+2346	inactive	
+2347	inactive	
+2348	inactive	
+2349	inactive	
+2350	inactive	
+2351	inactive	
+2352	inactive	
+2353	no data	
+2354	inactive	
+2355	inactive	
+2356	inactive	
+2357	inactive	
+2358	inactive	
+2359	inactive	
+2360	inactive	
+2361	no data	
+2362	inactive	
+2363	inactive	
+2364	inactive	
+2365	inactive	
+2366	inactive	
+2367	inactive	
+2368	known	
+2369	inactive	
+2370	no data	
+2371	no data	
+2372	inactive	
+2373	inactive	
+2374	inactive	
+2375	no data	
+2376	inactive	
+2377	inactive	
+2378	inactive	
+2379	inactive	
+2380	inactive	
+2381	inactive	
+2382	no data	
+2383	known	
+2384	inactive	
+2385	no data	
+2386	no data	
+2387	known_chembl	
+2388	known_chembl	
+2389	inactive	
+2390	inactive	
+2391	inactive	
+2392	inactive	
+2393	known	
+2394	known_chembl	
+2395	known	
+2396	inactive	
+2397	known	
+2398	no data	
+2399	inactive	
+2400	inactive	
+2401	inactive	
+2402	known	
+2403	no data	
+2404	known	
+2405	inactive	
+2406	inactive	
+2407	inactive	
+2408	inactive	
+2409	confirmed	10uM
+2410	confirmed	10uM
+2411	no data	
+2412	inactive	
+2413	no data	
+2414	inactive	
+2415	no data	
+2416	no data	
+2417	no data	
+2418	inactive	
+2419	inactive	
+2420	no data	
+2421	known	
+2422	confirmed	10uM
+2423	known_chembl	
+2424	confirmed	1uM
+2425	inactive	
+2426	inactive	
+2427	known	
+2428	confirmed	1uM
+2429	inactive	
+2430	known_chembl	
+2431	confirmed	>10uM
+2432	confirmed	10uM
+2433	inactive	
+2434	known	
+2435	confirmed	1uM
+2436	confirmed	1uM
+2437	confirmed	10uM
+2438	inactive	
+2439	inactive	
+2440	inactive	
+2441	no data	
+2442	inactive	
+2443	no data	
+2444	no data	
+2445	no data	
+2446	no data	
+2447	no data	
+2448	no data	
+2449	no data	
+2450	known	
+2451	confirmed	1uM
+2452	inactive	
+2453	inactive	
+2454	no data	
+2455	known	
+2456	inactive	
+2457	inactive	
+2458	inactive	
+2459	no data	
+2460	no data	
+2461	inactive	
+2462	known	
+2463	known	
+2464	inactive	
+2465	inactive	
+2466	inactive	
+2467	inactive	
+2468	inactive	
+2469	inactive	
+2470	inactive	
+2471	known	
+2472	confirmed	10uM
+2473	no data	
+2474	no data	
+2475	inactive	
+2476	no data	
+2477	inactive	
+2478	inactive	
+2479	inactive	
+2480	inactive	
+2481	known	
+2482	inactive	
+2483	no data	
+2484	inactive	
+2485	inactive	
+2486	inactive	
+2487	inactive	
+2488	inactive	
+2489	inactive	
+2490	inactive	
+2491	inactive	
+2492	inactive	
+2493	no data	
+2494	no data	
+2495	inactive	
+2496	no data	
+2497	inactive	
+2498	inactive	
+2499	inactive	
+2500	inactive	
+2501	inactive	
+2502	inactive	
+2503	inactive	
+2504	inactive	
+2505	confirmed	10uM
+2506	inactive	
+2507	inactive	
+2508	known_chembl	
+2509	inactive	
+2510	known	
+2511	known_chembl	
+2512	confirmed	1uM
+2513	known	
+2514	inactive	
+2515	inactive	
+2516	known	
+2517	inactive	
+2518	inactive	
+2519	known	
+2520	inactive	
+2521	inactive	
+2522	inactive	
+2523	known_chembl	
+2524	known_chembl	
+2525	inactive	
+2526	inactive	
+2527	no data	
+2528	no data	
+2529	no data	
+2530	inactive	
+2531	inactive	
+2532	inactive	
+2533	known	
+2534	inactive	
+2535	no data	
+2536	inactive	
+2537	inactive	
+2538	no data	
+2539	no data	
+2540	no data	
+2541	known	
+2542	known	
+2543	inactive	
+2544	confirmed	10uM
+2545	no data	
+2546	known	
+2547	inactive	
+2548	inactive	
+2549	known	
+2550	inactive	
+2551	no data	
+2552	no data	
+2553	no data	
+2554	inactive	
+2555	inactive	
+2556	known	
+2557	no data	
+2558	no data	
+2559	known	
+2560	inactive	
+2561	no data	
+2562	known	
+2563	inactive	
+2564	no data	
+2565	no data	
+2566	known	
+2567	no data	
+2568	inactive	
+2569	no data	
+2570	known	
+2571	known	
+2572	inactive	
+2573	inactive	
+2574	inactive	
+2575	inactive	
+2576	inactive	
+2577	known	
+2578	known	
+2579	no data	
+2580	inactive	
+2581	inactive	
+2582	known	
+2583	inactive	
+2584	inactive	
+2585	inactive	
+2586	no data	
+2587	no data	
+2588	inactive	
+2589	no data	
+2590	no data	
+2591	inactive	
+2592	known	
+2593	confirmed	>10uM
+2594	no data	
+2595	inactive	
+2596	no data	
+2597	inactive	
+2598	inactive	
+2599	no data	
+2600	known	
+2601	inactive	
+2602	no data	
+2603	inactive	
+2604	inactive	
+2605	inactive	
+2606	inactive	
+2607	inactive	
+2608	inactive	
+2609	no data	
+2610	inactive	
+2611	known_chembl	
+2612	no data	
+2613	inactive	
+2614	no data	
+2615	no data	
+2616	no data	
+2617	inactive	
+2618	inactive	
+2619	known	
+2620	inactive	
+2621	inactive	
+2622	known_chembl	
+2623	no data	
+2624	no data	
+2625	no data	
+2626	inactive	
+2627	known	
+2628	no data	
+2629	no data	
+2630	confirmed	>10uM
+2631	known	
+2632	no data	
+2633	inactive	
+2634	inactive	
+2635	known	
+2636	inactive	
+2637	inactive	
+2638	no data	
+2639	inactive	
+2640	no data	
+2641	inactive	
+2642	inactive	
+2643	inactive	
+2644	inactive	
+2645	inactive	
+2646	no data	
+2647	inactive	
+2648	no data	
+2649	confirmed	10uM
+2650	known	
+2651	known_chembl	
+2652	no data	
+2653	known	
+2654	inactive	
+2655	no data	
+2656	no data	
+2657	inactive	
+2658	inactive	
+2659	no data	
+2660	inactive	
+2661	inactive	
+2662	inactive	
+2663	inactive	
+2664	inactive	
+2665	inactive	
+2666	known	
+2667	no data	
+2668	known	
+2669	inactive	
+2670	inactive	
+2671	inactive	
+2672	no data	
+2673	known_chembl	
+2674	no data	
+2675	known	
+2676	inactive	
+2677	inactive	
+2678	no data	
+2679	no data	
+2680	inactive	
+2681	inactive	
+2682	confirmed	>10uM
+2683	known	
+2684	known	
+2685	no data	
+2686	inactive	
+2687	inactive	
+2688	inactive	
+2689	inactive	
+2690	no data	
+2691	confirmed	10uM
+2692	inactive	
+2693	known	
+2694	no data	
+2695	inactive	
+2696	inactive	
+2697	no data	
+2698	confirmed	10uM
+2699	no data	
+2700	inactive	
+2701	no data	
+2702	known	
+2703	no data	
+2704	no data	
+2705	known	
+2706	inactive	
+2707	inactive	
+2708	inactive	
+2709	inactive	
+2710	known	
+2711	inactive	
+2712	known_chembl	
+2713	inactive	
+2714	inactive	
+2715	inactive	
+2716	no data	
+2717	inactive	
+2718	known	
+2719	no data	
+2720	known	
+2721	inactive	
+2722	inactive	
+2723	inactive	
+2724	inactive	
+2725	inactive	
+2726	inactive	
+2727	inactive	
+2728	confirmed	1uM
+2729	inactive	
+2730	inactive	
+2731	no data	
+2732	no data	
+2733	known	
+2734	no data	
+2735	no data	
+2736	no data	
+2737	known_chembl	
+2738	inactive	
+2739	known	
+2740	no data	
+2741	inactive	
+2742	confirmed	>10uM
+2743	no data	
+2744	inactive	
+2745	known_chembl	
+2746	inactive	
+2747	known_chembl	
+2748	inactive	
+2749	inactive	
+2750	inactive	
+2751	no data	
+2752	inactive	
+2753	inactive	
+2754	inactive	
+2755	confirmed	1uM
+2756	inactive	
+2757	no data	
+2758	inactive	
+2759	no data	
+2760	inactive	
+2761	inactive	
+2762	inactive	
+2763	known_chembl	
+2764	inactive	
+2765	inactive	
+2766	no data	
+2767	inactive	
+2768	no data	

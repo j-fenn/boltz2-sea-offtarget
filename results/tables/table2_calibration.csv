@@ -1,0 +1,4 @@
+arm,transform,mean_abs_log10_error,n,fold_error
+UniProt,EXP(x) - as computed in the workbook,0.898,119,7.9069
+UniProt,10**x - consistent,1.2438,119,17.5322
+PDB,10**x - consistent,1.2323,119,17.0725

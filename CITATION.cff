@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this analysis, please cite the underlying dataset and model as well."
+title: "boltz2-sea-offtarget: evaluating Boltz-2 readouts on the Lounkine 2012 off-target benchmark"
+authors:
+  - family-names: Fenn
+    given-names: Jack
+version: 0.2.0
+date-released: 2026-08-24
+license: MIT
+references:
+  - type: article
+    title: "Large-scale prediction and testing of drug activity on side-effect targets"
+    authors:
+      - family-names: Lounkine
+        given-names: Eugen
+      - family-names: Keiser
+        given-names: Michael J.
+      - name: "et al."
+    journal: Nature
+    volume: 486
+    start: 361
+    end: 367
+    year: 2012
+    doi: 10.1038/nature11159
+  - type: article
+    title: "Boltz-2: Towards Accurate and Efficient Binding Affinity Prediction"
+    authors:
+      - name: "Passaro, S. et al."
+    year: 2025
+    notes: "Structure and affinity prediction model evaluated here."

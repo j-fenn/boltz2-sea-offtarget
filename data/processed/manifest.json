@@ -1,0 +1,26 @@
+{
+  "inputs": {
+    "data/raw/NIHMS373071-supplement-3.xls": "5b980542be3ac002a43d942af867cdcfde659cf8a25989e68d67c6b9cacdf247",
+    "data/raw/uniprot_reviewed_2025-11-10.fasta.gz": "c8cd4ab2e5bd3c8df08b1e5283a87f87cebc5927b463affe60842f5f35bcf551",
+    "data/raw/Predictions.dat": "23d0b051f35764f071867cc4c67dbdef473b433910dc1665b5571de3f855fc97",
+    "data/boltz_outputs/alltargetSHOICHET.xlsx": "740c64916e9e23694a648cf9458cdf03ed344d6a4ad83de3fe82ab1a96ab90b7",
+    "data/boltz_outputs/PDBdimerresult.xlsx": "f052aa49a9414b26b2b63749cb3d69ffb91495e0e6041f499f2e4d2eda2c3d2b",
+    "data/boltz_outputs/pubchem_smiles_expanded.xlsx": "29329aceedbc10f6d9b08dd003e82c2628b022478fdf1fcd07b6c6b06b84238c"
+  },
+  "stages": {
+    "safety_targets": 73,
+    "uniprot_map": 117,
+    "drugs": 656,
+    "predictions": 4759,
+    "confirmed": 174,
+    "pairs_all": 710,
+    "pairs_labelled": 708,
+    "pairs_primary": 690,
+    "dimer_panel": 107,
+    "smiles_comparison": 220
+  },
+  "notes": [
+    "excluded 20 ADRA2A rows from pairs.parquet: The PDB-arm sequence for ADRA2A is 'TSSIVHLCAISLDRYWSITQAIEYNLKRTPRR' - a 32-residue fragment of transmembrane helix 3 and the second intracellular loop, pasted where a binding-pocket sequence belonged. It is what copy-pasting from a structure page by hand produces. The rows are kept in data/raw and data/boltz_outputs as the record and excluded here by name.",
+    "dimer sheets: 15 rows carried a SMILES string in the label column and 39 rows had no label column; labels recovered by joining to the master table (0 still unresolved)"
+  ]
+}

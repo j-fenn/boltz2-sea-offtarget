@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "offtarget"
+version = "0.2.0"
+description = "Boltz-2 evaluated against the Lounkine 2012 off-target safety benchmark"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Jack Fenn" }]
+keywords = ["drug-discovery", "benchmarking", "boltz2", "cheminformatics",
+            "off-target", "model-evaluation"]
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "scikit-learn>=1.3",
+    "matplotlib>=3.7",
+    "openpyxl>=3.1",
+    "xlrd>=2.0",          # the 2012 supplement is a legacy .xls
+    "pyarrow>=14",
+    "PyYAML>=6.0",
+    "rdkit>=2023.3",      # InChIKey comparison in the SMILES audit
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "jupytext>=1.15", "nbconvert>=7", "ipykernel>=6"]
+
+[project.scripts]
+offtarget = "offtarget.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "inputs"]

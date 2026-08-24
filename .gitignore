@@ -27,3 +27,5 @@ dist/
 data/processed/*
 !data/processed/manifest.json
 !data/processed/.gitkeep
+
+# executed notebook outputs are committed deliberately; strip nothing
