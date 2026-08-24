@@ -16,10 +16,9 @@ which makes the choice of readout more consequential than the choice of model.
 
 ## Authorship and scope
 
-All work here is by **Jack Fenn**. It began as a course project (**AICD3_201**, Nov 2025) with
-a follow-up in **Mar 2026**, both built on the published Lounkine 2012 dataset from the Shoichet
-lab; the data-construction pipeline, the input audit and the analyses in `notebooks/01`–`07`
-were written for this repository.
+Original course projects: **AICD3_201 (Nov 2025)** with Andrew Duong, Yujin Wu and Brian
+Shoichet, and a follow-up (**Mar 2026**) with Andrew Duong. The data-construction pipeline, the
+input audit, and the analyses in `notebooks/02`–`07` are by **Jack Fenn**.
 
 These were student projects run on a laptop against a public dataset. Nothing here was
 prospectively validated, no new off-target interaction was discovered, and the limitations
