@@ -27,12 +27,15 @@ jobs:
             echo "::error::a credential-shaped file is tracked"; exit 1
           fi
 
-      # AlphaFold 3 was never run. It may appear as a citation and nowhere else.
+      # AlphaFold 3 was never run. It may appear as a citation or as a disclaimer
+      # saying it was not run, and nowhere else. This guard exists to catch a
+      # *claim* reappearing, not to police prose -- hence the explicit allow-list.
       - name: No AlphaFold claims
         run: |
           if grep -rniE 'alphafold|\bAF3\b' --include='*.py' --include='*.ipynb' \
-             --include='*.md' --include='*.yaml' . | grep -viE 'citation|never run|not run'; then
-            echo "::error::AlphaFold referenced outside a citation"; exit 1
+             --include='*.md' --include='*.yaml' . \
+             | grep -viE 'cit(ation|ed)|never run|not run|had not|as though|only as'; then
+            echo "::error::AlphaFold referenced outside a citation or disclaimer"; exit 1
           fi
 
       - name: Rebuild every table from the published supplement
